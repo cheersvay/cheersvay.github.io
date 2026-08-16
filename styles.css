@@ -3,3 +3,23 @@
     height: auto;
 
 }
+
+/* General page styling */
+body {
+  /* Set the texture as the background image */
+  background-image: url('photos/gray.jpg');
+
+  /* Crucial settings for full-page backgrounds */
+  background-repeat: no-repeat; /* Prevents the image from tiling (repeating) */
+  background-position: center;   /* Centers the image on the screen */
+  background-attachment: fixed;  /* Keeps the background from scrolling with the content */
+  
+  /* Choose ONE of these for the size: */
+  /* This option stretches the image to fit the screen, which can distort small images */
+  /* background-size: cover; */
+
+  /* This option makes the image fill the screen without distortion, and is generally preferred */
+  background-size: cover; 
+}
+
+
