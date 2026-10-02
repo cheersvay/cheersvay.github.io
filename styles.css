@@ -24,3 +24,11 @@ body {
   align-items: center;      /* horizontal centering */
   text-align: center;
 }
+nav {
+  display: flex;
+  flex-direction: row;   /* was column */
+  flex-wrap: wrap;       /* wraps on narrow screens */
+  justify-content: center;
+  align-items: center;
+  gap: 12px;             /* space around each link and pipe */
+}
